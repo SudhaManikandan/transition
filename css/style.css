@@ -1,0 +1,42 @@
+body{
+	background-color:black;
+}
+h1{
+	text-align:center;
+	color:darkgrey;
+}
+
+.drop{
+  width: 25%;
+  overflow:hidden;
+  position:relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  
+}
+img{
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+.drop:hover img{
+	transform:scale(1.5);
+}
+.black{
+	background-color:black;
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	visibility: hidden;
+	transition:all 0.2s ease-in-out;
+}
+.drop:hover .black{
+	visibility: visible;
+}
+
+
+
+
